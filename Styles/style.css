@@ -50,7 +50,53 @@ header .nav {
 }
 
 .btn-primary:hover {
-    background-color: white;
-    color:rgba(0, 106, 80, 1);
-    border: 1px solid rgba(0, 106, 80, 1);
+  background-color: white;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
+}
+
+/* hero banner section */
+
+.hero {
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.hero .banner-content {
+  max-width: 450px;
+}
+.hero .banner-content h1 {
+  color: rgba(14, 14, 14, 1);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: left;
+  margin: 16px 0 24px ;
+}
+
+.hero .banner-content p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hero .banner-image {
+    max-width: 450px;
+}
+
+.banner-image img {
+    width: 100%;
+    padding: 40px;
 }
