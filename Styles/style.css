@@ -28,6 +28,13 @@ body {
   cursor: pointer;
   border: none;
 }
+
+.btn-primary:hover {
+  background-color: white;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
+}
+
 .primary-heading {
   color: rgba(14, 14, 14, 1);
   font-family: Fira Sans;
@@ -49,13 +56,6 @@ header .nav {
   font-size: 32px;
   font-weight: 700;
 }
-
-.btn-primary:hover {
-  background-color: white;
-  color: rgba(0, 106, 80, 1);
-  border: 1px solid rgba(0, 106, 80, 1);
-}
-
 /* hero banner section */
 
 .hero {
@@ -96,7 +96,6 @@ header .nav {
   width: 80%;
 }
 
-
 /* vision section */
 
 #vision {
@@ -120,11 +119,14 @@ header .nav {
   gap: 20px;
 }
 
-button {
-  padding: 11px 20px;
-  border-radius: 8px;
+.btn-1 {
+  background: rgba(84, 144, 245, 1);
+}
+.btn-2 {
   background: rgba(9, 161, 92, 1);
-  border: none;
+}
+.btn-3 {
+  background: rgba(255, 194, 57, 1);
 }
 .vision-child-1 {
   border-radius: 16px;
