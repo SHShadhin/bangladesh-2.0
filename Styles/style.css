@@ -2,6 +2,7 @@
 
 body {
   font-family: "Fira Sans", sans-serif;
+  background-color: rgb(246, 242, 242);
 }
 
 /* typo end */
@@ -13,7 +14,7 @@ body {
 
 /* Shared styles */
 .container {
-  width: 73%;
+  width: 75%;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -107,7 +108,7 @@ header .nav {
 #vision p {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0%;
@@ -151,7 +152,7 @@ button {
   line-height: 100%;
   letter-spacing: 0%;
   margin-top: 24px;
-  margin-bottom:12px;
+  margin-bottom: 12px;
 }
 
 .vision-sub {
@@ -161,4 +162,94 @@ button {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+/* news section */
+
+#news p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.news-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 24px;
+  padding: 48px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+}
+.news-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 24px;
+  padding: 48px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.news-1 .news-content {
+  max-width: 540px;
+  margin-bottom: 24px;
+}
+.news-2 .news-content {
+  max-width: 540px;
+  margin-bottom: 24px;
+}
+
+figcaption {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+figcaption span {
+  margin-left: 10px;
+}
+.news-1 .news-img div {
+  max-width: 450px;
+}
+
+.news-img div img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.news-1 .news-title, .news-2 {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-1 .news-sub, .news-2 {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 30px;
 }
